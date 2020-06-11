@@ -1,4 +1,10 @@
-# Cara menambah fitur di aplikasi ini
+# Codelio
+
+## Screenshot
+
+![screenshot](https://github.com/codelio-id/one-determination-readme/blob/master/screenshot.jpg?raw=true)
+
+## Cara menambah fitur di aplikasi ini
 
 - Salin folder yang memuat fitur yang kamu inginkan ke _/modules_.
 - Tambah kutipan kode berikut ke dalam file _index.php_ yang terdapat di dalam folder fitur _contoh: /modules/(nama_folder_fitur)/index.php_ dan letakkan kode tersebut di baris paling atas.
@@ -62,7 +68,7 @@ Setelah ditambah (misalkan kita akan menambah fitur acc check twitter)
 | ------------- | -------------------------------------------------------------------------------------------------------------- |
 | _slug_        | Silahkan pilih sesuai keinginan (digunakan untuk url)                                                          |
 | _name_        | Silahakan pilih sesuai keinginan (digunakan untuk nama navigasi)                                               |
-| _icon_        | Silahkan pilih ikon disini [https://fontawesome.com/icons?d=gallery](link) format penamaan _fa fa-(nama_icon)_ |
+| _icon_        | Silahkan pilih ikon disini [link](https://fontawesome.com/icons?d=gallery) format penamaan _fa fa-(nama_icon)_ |
 | _folder_name_ | Silahkan beri nama sesuai dengan nama folder fitur kamu                                                        |
 
 By codelio with ❤
