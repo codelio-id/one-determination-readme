@@ -4,7 +4,24 @@
 - Tambah kutipan kode berikut ke dalam file _index.php_ yang terdapat di dalam folder fitur _contoh: /modules/(nama_folder_fitur)/index.php_ dan letakkan kode tersebut di baris paling atas.
 
 ```php
-// session
+<?php
+
+require_once("../../_config.php");
+
+if (session_status() == PHP_SESSION_NONE) session_start();
+
+if (isset($_SESSION['user'])) {
+  $isAuthorized = false;
+  foreach (json_decode($_SESSION['user'])->privilege as $val) {
+    if ($val->detail == $_GET['slug']) {
+      $isAuthorized = true;
+        break;
+    }
+  }
+  if (!$isAuthorized) die(header('location: ' . $base_url . 'auth.php'));
+} else die(header('location: ' . $base_url . 'auth.php'));
+
+?>
 ```
 
 - Tambahkan kode dalam file _features.json_ seperti berikut.
