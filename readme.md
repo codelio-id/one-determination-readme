@@ -6,8 +6,8 @@
 
 ## Cara menambah fitur di aplikasi ini
 
-- Salin folder yang memuat fitur yang kamu inginkan ke _/modules_.
-- Tambah kutipan kode berikut ke dalam file _index.php_ yang terdapat di dalam folder fitur _contoh: /modules/(nama_folder_fitur)/index.php_ dan letakkan kode tersebut di baris paling atas.
+- Salin / upload folder yang memuat fitur yang kamu inginkan ke _/modules_.
+- Tambah kutipan kode berikut ke dalam file _index.php_ yang terdapat di dalam folder fitur yang diinginkan _/modules/(nama_folder_fitur)/index.php_ dan letakkan kode tersebut di baris paling atas.
 
 ```php
 <?php
@@ -30,7 +30,7 @@ if (isset($_SESSION['user'])) {
 ?>
 ```
 
-- Tambahkan kode dalam file _features.json_ seperti berikut.
+- Tambahkan kode berikut ke dalam file _features.json_ seperti berikut.
 
 Sebelum ditambah
 
