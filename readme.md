@@ -71,4 +71,6 @@ Setelah ditambah (misalkan kita akan menambah fitur acc check twitter)
 | _icon_        | Silahkan pilih ikon disini [link](https://fontawesome.com/icons?d=gallery) format penamaan _fa fa-(nama_icon)_ |
 | _folder_name_ | Silahkan beri nama sesuai dengan nama folder fitur kamu                                                        |
 
+- Dan terakhir atur hak akses pengguna agar bisa mengakses fitur di menu _manage user_
+
 By codelio with ❤
